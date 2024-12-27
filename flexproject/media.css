@@ -1,0 +1,32 @@
+@media ( max-width:1300px)
+
+{
+    .inp input{
+        width:500px !important;
+    }  
+}
+
+
+@media ( max-width:1150px)
+{
+    .inp input{
+        width:250px !important;
+    }
+}
+
+
+
+
+@media ( max-width:640px)
+{ 
+    .logo img 
+     {
+        width: 50px;
+        height: auto;
+     } 
+     .inp input
+     {
+        width:35% !important;
+     }
+    
+}

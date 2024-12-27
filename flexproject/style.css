@@ -1,0 +1,704 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: brown; */
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px solid gray;
+}
+.header ul{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header li {
+    /* background: wheat; */
+    display: inline;
+}
+
+.headerinfo {
+    display: inline;
+    gap: 20px;
+}
+
+.info li {
+    /* background: red; */
+    border: 1px solid;
+
+}
+.info ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    /* background: green; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px solid gray;
+    z-index: 100;
+}
+
+
+.logoimg {
+    display: inline;
+    height: 10%;
+    width: -90px;
+
+
+}
+
+.location {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.locleft {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+    background-color: white;
+    margin-left: 40%;
+    border-radius: 8px;
+    text-align: center;
+    height: 50px;
+}
+.icon{
+    display: flex;
+    margin-top:-50px;
+    float: right;
+    gap: 20px;
+    background:white;
+}
+
+.navlink {
+    display: flex;
+    position: relative;
+}
+
+.center {
+    display: flex;
+}
+
+.nav2 {
+    display: flex;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    margin-right: 70px;
+    justify-content: space-between;
+    /* border:2px solid black; */
+    z-index: 100;
+    position: sticky;
+     
+}
+.nav2 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlink li {
+    list-style: none;
+
+}
+
+.navlink li a {
+    list-style: none;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+ul li:hover {
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    transition: 2s;
+}
+
+.dropdown {
+    display: none;
+}
+
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    color: black;
+    margin-left: -0.29cm;
+    margin-top: 0.27cm;
+
+}
+
+.dropdown ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.dropdown ul li {
+    display: block;
+     
+}
+.dropdown2 ul{
+
+    color: brown;
+}
+.ul li:hover .dropdown2 {
+    display: block;
+    /* position: absolute; */
+    color: black;
+    margin-left: -0.29cm;
+    margin-top: 0.27cm;
+     
+
+
+ } 
+.dropdown2 ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+.dropdown2 ul li {
+    display: block;
+     
+}
+
+.dropdown2 {
+    display: none;
+     
+}
+  ul li:hover .dropdown2 {
+    /* background-color: blue;   */
+    border-radius: 8px;
+    display: block;
+    transition: 2s;
+    /* color: white; */
+    color: black;  
+    /* transition:2s; */
+}
+ .dropdown2 li {
+    display: inline-block;
+    padding: 10px;
+       
+}
+
+.content {
+    background: url("img/slider-image-3.webp");
+    height: 400px;
+    width: 1100px;
+    text-align: left;
+    margin-left: 110px;
+    flex-wrap: wrap;
+    padding-left: 20PX;
+    border-radius: 12px;
+    /* border: 1px solid black; */
+
+}
+
+
+.content .button {
+    
+    border-radius: 12px;
+    background: transparent;
+}
+
+.av { 
+    background: url();
+    background:lightpink;
+    color: green;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20PX;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px
+}
+
+
+.av button {
+    background: green;
+    margin-left: 65%;
+    margin-top: 50px;
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+}
+
+.ab {
+    /* background: brown; */
+    margin-left: 50px;
+    padding-left: 20PX;
+    margin-right: 50px;
+    border-radius: 12px;
+
+}
+
+.ab button {
+    background: grey;
+    margin-top: -54%;
+    margin-left: 300px;
+    gap: 0%;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 12px;
+
+}
+.card1{
+    background:url() ;
+    /* background: red; */
+    text-align: center;
+    font-size: 15x;
+    /* border-radius: 12px; */
+    border-right: 1px solid lightgray;
+    margin-left: 50px;
+}
+.card1 button{
+    border-radius: 12px;
+    margin-left: 10PX;
+    padding: 12px;
+    padding-right: 30%;
+    background:lightcoral;
+    display: none;
+    
+}
+
+.card1:hover button{ 
+   display: block;    
+}
+.card1 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+.card2{
+    background:url() ;
+    /* background: red; */
+    text-align: center;
+    font-size: 15px;
+    /* border-radius: 12px; */
+    border-right: 1px solid  lightgray;
+}
+.card2 button{
+      border-radius: 12px;
+      margin-left: 10PX;
+      padding: 12px;
+      padding-right: 30%;
+      background: lightcoral;
+      display: none;
+}
+
+.card2:hover button{ 
+        display: block; 
+}
+.card2 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+
+.card3{
+    text-align: center;
+    font-size: 15px;
+    border-right: 1px solid  lightgray;
+}
+.card3 button{
+    border-radius: 12px;
+    margin-left: 10PX;
+    padding: 12px;
+    padding-right: 30%;
+    background: lightcoral; 
+    display: none;
+}
+
+.card3:hover button{ 
+    display: block; 
+}
+.card3 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+.card4{
+    background:url() ;
+    text-align: center;
+    font-size: 15px;
+    margin-right:100px;
+    border-right: 1px solid  lightgray;
+}
+
+.card4 button{
+    border-radius: 12px;
+    margin-left: 10PX;
+    padding: 12px;
+    padding-right: 30%;
+    background:lightcoral;
+    display: none;
+}
+
+.card4:hover button{ 
+    display: block; 
+}
+.card4 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+.card5{
+    background:url() ;
+    text-align: center;
+    margin-left: -100px;
+    font-size: 15px;
+}
+
+.card5 button{
+    border-radius: 12px;
+    margin-left: 10PX;
+    justify-content: center;
+    padding: 12px;
+    padding-right: 30%;
+    background: lightcoral;
+    display: none;
+}
+
+.card5:hover button{ 
+    display: block; 
+}
+.card5 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+
+.la{ 
+    /* background: pink; */
+    margin-left:50px;
+    margin-right: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.card1a{
+    background: url("img/bacola-banner-07.jpg");
+    padding-right: 40%;
+    border-radius: 12px;
+}
+.card1a button{
+    border-radius: 12px;
+    background: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+.card2a{
+    background: url("img/bacola-banner-08.jpg");
+     /* background: ghostwhite; */
+     
+     padding-right: 40%;
+     border-radius: 12px;   
+}
+.card2a button{
+    border-radius: 12px;
+    background: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+.gro{
+    background: lightgoldenrodyellow;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    box-sizing: border-box;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+    border-radius: 12px;
+    text-align: center;
+}
+.bs{
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+.bs button{
+    border-radius:15px;
+    margin-top: -5%;
+    padding: 12px;
+    float: right;
+}
+.container2{
+    display: flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.task1{
+    margin-right: 20px;
+    height: auto;
+    border-right: 40px solid transparent;
+}
+.task1 button{
+    border-radius: 12px;
+    margin-left: 10PX;
+    justify-content: center;
+    padding: 12px;
+    padding-right: 30%;
+    background: lightcoral;
+    display: none;
+}
+
+.task1:hover button{ 
+    display: block; 
+}
+.task1 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+ 
+.container3{
+    display: flex;
+    flex-wrap:wrap;
+    font-size: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%; 
+}
+
+.task3{
+    margin-left:-80px;
+    border-right: 40px solid white;
+}
+.task3 button{
+    border-radius: 12px;
+    margin-left: 10PX;
+    padding: 12px;
+    padding-right: 30%;
+    background:lightcoral;
+    display: none;
+}
+
+.task3:hover button{ 
+    display: block; 
+}
+.task3 button:hover{
+    cursor: pointer;
+    transition: 2s;
+    visibility: visible;
+    color: black;
+}
+.task4{
+    margin-left:50px ;
+    margin-bottom: -325px;
+}
+.main2{
+    background: url(img/product-grid2.jpg);
+    /* background: red; */
+    margin-left:480px;
+    margin-top:-625px;
+    flex-wrap: wrap;
+    width: 100%;
+    background-size: 100%;
+    border: 2PX solid;    
+}
+
+.main2text{
+    margin-left: 10px;
+}
+.main2text h3{
+    color: red;
+}
+
+.lenovo{
+    padding-left: 770px;
+    margin-top: -645px;
+}
+.lenovo2{
+    padding-left: 1070px;
+    margin-top: -325px;  
+}
+.lenovo3{
+    padding-left:770px;
+    
+}
+.lenovo4{
+    padding-left: 1070px;
+    margin-top: -325px;
+}
+.E-B-J{
+    display: flex;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    gap: 20px;
+    width: 1250px;
+    margin-bottom: 10/50px;
+    height: 250px;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.eggs{
+    background: url(img/bacola-banner-05.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 2px solid black;
+    border-radius: 12px;
+    width:399px;
+}
+.best{
+    background: url(img/bacola-banner-06.jpg);
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    background-size: 100%;
+    border-radius: 12px;
+    border: 2px solid black;
+    width:399px;
+}
+.junk{
+    background: url(img/bacola-banner-10.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 12px;
+    border: 2px solid black;
+    width:399px;
+}
+.f-product{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.s-w-f{
+    /* background-color: aqua; */
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 80px;
+}
+.s-v-g{
+    background:lightpink;
+    height: 50px;
+    padding-top: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    letter-spacing: 7px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-bottom:  50px;
+}
+.t-g-g{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.t-g-a{
+    justify-content: space-around;
+}
+.j-o-n{
+    height: 300px;
+    background: blue;
+    color: white; 
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
+}
+.j-n-i{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.i-s{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+}
+.icon2{
+    background-color:black;
+    height: 35px; 
+    width: 43px;
+    padding: 10px
+}
+.j-o-img{
+    float: right;
+}
+.f-f-1{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid gray;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer-1{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+
+}
+.f-i-i{
+    display: flex;
+}
+.f-i-iimg{
+    margin-left: 100px; 
+}
+.f-f-l{
+    display: flex;
+    justify-content: space-around;
+}
+
+
